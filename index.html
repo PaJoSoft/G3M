@@ -1,62 +1,73 @@
-
 <!DOCTYPE html>
 <html lang="pt">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Monitoramento Inteligente de Gás</title>
+  <title>G3M – Monitoramento Inteligente de Gás</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
-    header { background: #00416A; color: white; padding: 20px 40px; text-align: center; }
-    section { padding: 40px; max-width: 1000px; margin: auto; }
-    h2 { color: #00416A; }
-    .cta { background: #007ACC; color: white; padding: 20px; text-align: center; font-size: 1.2em; }
-    .btn { background: #00A859; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; background-color: #f9f9f9; }
+    header { background: #00416A; color: white; padding: 40px 20px; text-align: center; }
+    section { padding: 40px 20px; max-width: 1100px; margin: auto; background: white; margin-bottom: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    h2 { color: #00416A; margin-bottom: 10px; }
+    .cta { background: #007ACC; color: white; padding: 20px; text-align: center; font-size: 1.2em; border-radius: 8px; }
+    .btn { background: #00A859; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; display: inline-block; margin-top: 10px; }
     footer { background: #eee; text-align: center; padding: 20px; font-size: 0.9em; }
-    img { max-width: 100%; height: auto; border-radius: 10px; margin: 20px 0; }
+    img { max-width: 100%; height: auto; border-radius: 10px; margin: 20px 0; box-shadow: 0 2px 6px rgba(0,0,0,0.15); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 20px; }
   </style>
 </head>
 <body>
 
 <header>
-  <h1>Patente: Sistema Inteligente de Monitoramento de Gás</h1>
-  <p>Solução inovadora para medição, segurança e ressarcimento de gás residual</p>
+  <h1>G3M – Módulo Inteligente de Monitoramento de Gás</h1>
+  <p>Solução conectada para segurança, economia e automação no uso de gás</p>
 </header>
 
 <section>
   <h2>O Problema</h2>
-  <p>Milhares de consumidores trocam garrafas de gás ainda cheias, sem saber o volume restante. Isso gera prejuízo e risco, mesmo com legislação prevendo ressarcimento.</p>
-  <p>Além disso, vazamentos de gás causam explosões todos os anos, resultando em perdas materiais e humanas que poderiam ser evitadas com monitoramento adequado.</p>
-  <img src="images/gas-cylinder-problem.jpg" alt="Ilustração do problema com gás residual">
-  <img src="images/gas-explosion-house.jpg" alt="Casa destruída após explosão de gás">
+  <p>Milhares de famílias e negócios desperdiçam gás ao trocar garrafas ainda cheias – além do risco constante de vazamentos e explosões.</p>
+  <p>Mesmo com legislação que prevê ressarcimento pelo gás residual, ela raramente é aplicada por falta de medição confiável.</p>
+  <div class="grid">
+    <img src="images/gas-cylinder-problem.jpg" alt="Ilustração do problema com gás residual">
+    <img src="images/gas-explosion-house.jpg" alt="Casa destruída após explosão de gás">
+  </div>
 </section>
 
 <section>
-  <h2>A Solução</h2>
-  <p>Nosso sistema, baseado em ESP32, mede o consumo em tempo real, calcula o gás residual e permite corte automático em caso de fuga. Acompanha aplicação web para visualização remota.</p>
-  <img src="images/esp32-box-lcd.jpg" alt="Protótipo com ESP32 e LCD">
-</section>
-
-<section>
-  <h2>Diferenciais</h2>
+  <h2>A Solução G3M</h2>
+  <p>A G3M é uma solução completa, composta por:</p>
   <ul>
-    <li>Patente registrada e funcional</li>
-    <li>Medição precisa com sensor de fluxo</li>
-    <li>Aplicação web integrada</li>
-    <li>Controle remoto da válvula</li>
-    <li>Pronto para licenciamento ou venda</li>
+    <li>Módulo inteligente com ESP32, sensor de caudal e válvula solenoide</li>
+    <li>Display LCD para leitura local</li>
+    <li>App web para visualização remota e alertas</li>
+    <li>Função de corte automático em caso de fuga</li>
   </ul>
-  <img src="images/web-dashboard.jpg" alt="Dashboard da aplicação web de monitoramento">
+  <div class="grid">
+    <img src="images/esp32-box-lcd.jpg" alt="Protótipo da box com ESP32 e LCD">
+    <img src="images/module-internal.jpg" alt="Interior do módulo de monitoramento">
+    <img src="images/web-dashboard.jpg" alt="Dashboard da aplicação web G3M">
+  </div>
+</section>
+
+<section>
+  <h2>Diferenciais da G3M</h2>
+  <ul>
+    <li>✅ Patente registrada e funcional</li>
+    <li>✅ Medição precisa e corte remoto</li>
+    <li>✅ Aplicação web de gestão e alertas</li>
+    <li>✅ Design compacto e fácil instalação</li>
+    <li>✅ Pronta para licenciamento e produção</li>
+  </ul>
 </section>
 
 <section class="cta">
-  <p>Interessado em licenciar ou adquirir esta patente?</p>
-  <a href="mailto:seuemail@exemplo.com" class="btn">Entre em contato</a>
+  <p>Quer ser parceiro, investidor ou adquirir a licença da G3M?</p>
+  <a href="mailto:seuemail@exemplo.com" class="btn">Fale Connosco</a>
 </section>
 
 <footer>
-  &copy; 2025 Monitoramento de Gás - Todos os direitos reservados
+  &copy; 2025 G3M – Monitoramento de Gás. Todos os direitos reservados.
 </footer>
 
 </body>

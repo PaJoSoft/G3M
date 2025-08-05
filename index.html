@@ -6,6 +6,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Monitoramento Inteligente de Gás</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; color: #333; }
+    header { background: #00416A; color: white; padding: 20px 40px; text-align: center; }
+    section { padding: 40px; max-width: 1000px; margin: auto; }
+    h2 { color: #00416A; }
+    .cta { background: #007ACC; color: white; padding: 20px; text-align: center; font-size: 1.2em; }
+    .btn { background: #00A859; color: white; padding: 10px 20px; text-decoration: none; font-weight: bold; border-radius: 5px; }
+    footer { background: #eee; text-align: center; padding: 20px; font-size: 0.9em; }
+    img { max-width: 100%; height: auto; border-radius: 10px; margin: 20px 0; }
+  </style>
 </head>
 <body>
 
@@ -17,11 +27,15 @@
 <section>
   <h2>O Problema</h2>
   <p>Milhares de consumidores trocam garrafas de gás ainda cheias, sem saber o volume restante. Isso gera prejuízo e risco, mesmo com legislação prevendo ressarcimento.</p>
+  <p>Além disso, vazamentos de gás causam explosões todos os anos, resultando em perdas materiais e humanas que poderiam ser evitadas com monitoramento adequado.</p>
+  <img src="images/gas-cylinder-problem.jpg" alt="Ilustração do problema com gás residual">
+  <img src="images/gas-explosion-house.jpg" alt="Casa destruída após explosão de gás">
 </section>
 
 <section>
   <h2>A Solução</h2>
   <p>Nosso sistema, baseado em ESP32, mede o consumo em tempo real, calcula o gás residual e permite corte automático em caso de fuga. Acompanha aplicação web para visualização remota.</p>
+  <img src="images/esp32-box-lcd.jpg" alt="Protótipo com ESP32 e LCD">
 </section>
 
 <section>
@@ -33,6 +47,7 @@
     <li>Controle remoto da válvula</li>
     <li>Pronto para licenciamento ou venda</li>
   </ul>
+  <img src="images/web-dashboard.jpg" alt="Dashboard da aplicação web de monitoramento">
 </section>
 
 <section class="cta">
